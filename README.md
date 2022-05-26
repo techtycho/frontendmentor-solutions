@@ -2,6 +2,8 @@
 
 This repository contains all FrontendMentor challenges I've made.
 
+## Challenges
+
 | Number | Challenge |
 | ------ | --------- |
 | 01 | [Testimonials Grid](testimonials-grid) |
