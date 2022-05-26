@@ -7,6 +7,7 @@ This repository contains all FrontendMentor challenges I've made.
 | Number | Challenge |
 | ------ | --------- |
 | 01 | [Testimonials Grid](testimonials-grid) |
+| 02 | [NFT Preview Card Component](nft-preview-card-component) |
 
 ## Note
 - I don't submit my solutions, I only judge by the similarity to the original design.
