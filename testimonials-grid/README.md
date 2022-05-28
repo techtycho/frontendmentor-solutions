@@ -13,5 +13,6 @@ My Solution:
 
 ## Required Knowledge
 - CSS Grid
+- Responsive Web Design (eg. media queries, meta viewport tag..)
 - Flexbox (Not really required since you can use floats)
 - Basic CSS (eg. border-radius, box-shadow)

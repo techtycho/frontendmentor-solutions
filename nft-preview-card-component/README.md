@@ -13,6 +13,7 @@ My Solution:
 
 ## Required Knowledge
 - Flexbox
+- Responsive Web Design (eg. media queries, meta viewport tag..)
 - Pseudo Elements (::before and ::after)
 - CSS Positioning
 - Basic CSS (eg. border-radius, box-shadow)
