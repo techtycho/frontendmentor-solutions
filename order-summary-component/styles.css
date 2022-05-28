@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  --card-width: 450px;
+
+  /* Theme Colors */
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1rem;
+  background-color: var(--pale-blue);
+  background-image: url("images/pattern-background-desktop.svg");
+  background-repeat: repeat-x;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  width: var(--card-width);
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0px 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.card .card__img {
+  width: 100%;
+  border-start-start-radius: 20px;
+  border-start-end-radius: 20px;
+}
+
+.card .card__content {
+  padding: 48px;
+  padding-top: 40px;
+}
+
+.card .card__title {
+  font-weight: 900;
+  font-size: 1.75rem;
+  margin-bottom: 20px;
+  color: var(--dark-blue);
+  text-align: center;
+}
+
+.card .card__paragraph {
+  color: var(--desaturated-blue);
+  text-align: center;
+  margin-bottom: 20px;
+  line-height: 1.5rem;
+}
+
+.card .card__offer {
+  background-color: var(--very-pale-blue);
+  padding: 25px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  line-height: 1.5rem;
+}
+
+.offer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: var(--desaturated-blue);
+}
+
+.offer__icon {
+  margin-right: 20px;
+}
+
+.offer p {
+  font-weight: 900;
+  color: var(--dark-blue);
+}
+
+.card__offer a {
+  color: var(--bright-blue);
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.card__offer a:hover {
+  cursor: pointer;
+  color: hsla(245, 75%, 52%, 65%);
+  text-decoration: none;
+}
+
+.card__options .btn {
+  padding: 15px;
+  background-color: var(--bright-blue);
+  color: #fff;
+  font-weight: 900;
+  font-size: 0.95rem;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 25px 25px -5px rgba(0, 0, 0, 0.1),
+    0px 10px 10px -5px rgba(0, 0, 0, 0.04);
+  margin-bottom: 30px;
+  transition: 0.4s;
+}
+
+.card__options .btn:hover {
+  cursor: pointer;
+  background-color: hsla(245, 75%, 52%, 65%);
+}
+
+.card__options .btn-sec {
+  text-align: center;
+  color: var(--desaturated-blue);
+  font-weight: 900;
+  font-size: 0.95rem;
+  transition: 0.3s;
+}
+
+.card__options .btn-sec:hover {
+  cursor: pointer;
+  color: var(--dark-blue);
+}
+
+@media (max-width: 500px) {
+  * {
+    --card-width: 90%;
+  }
+
+  body {
+    background-image: url("images/pattern-background-mobile.svg");
+  }
+
+  .card__offer {
+    line-height: 1rem;
+    font-size: 0.8rem;
+  }
+
+  .card .card__offer {
+    padding: 10px;
+  }
+
+  .offer__icon {
+    margin-right: 10px;
+  }
+
+  .card__offer a {
+    font-size: 0.8rem;
+  }
+}
