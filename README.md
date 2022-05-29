@@ -2,6 +2,8 @@
 
 This repository contains all FrontendMentor challenges I've made.
 
+> I'll submit solutions here whenever I can, maybe daily or once in two days.
+
 ## Challenges
 
 | Number | Challenge | Difficulty |
