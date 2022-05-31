@@ -12,7 +12,7 @@ My Solution:
 ![My Solution](preview.png)
 
 ## Required Knowledge
-- CSS Grid (You can also use Flexbox)
+- CSS Grid (You can also use Flexbox and Floats)
 - Flexbox
 - CSS Transitions & Animations
 - Pseudo Classes (eg. hover states)
