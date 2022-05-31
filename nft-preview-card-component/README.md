@@ -9,11 +9,15 @@ Level: 1, **Newbie**
 Link: https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U
 
 My Solution:
-![My Soultion](preview.png)
+![My Solution](preview.png)
 
 ## Required Knowledge
 - Flexbox
 - Responsive Web Design (eg. media queries, meta viewport tag..)
 - Pseudo Elements (::before and ::after)
-- CSS Positioning
+- Pseudo Classes (eg. hover states)
+- CSS Transitions & Animations
+- CSS Positioning (eg. position: relative, absolute)
+- Box Model
 - Basic CSS (eg. border-radius, box-shadow)
+- HTML Semantic Tags

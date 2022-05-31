@@ -15,4 +15,8 @@ My Solution:
 - CSS Grid
 - Responsive Web Design (eg. media queries, meta viewport tag..)
 - Flexbox (Not really required since you can use floats)
+- CSS Transitions & Animations
+- Pseudo Classes (eg. hover states)
+- Box Model
 - Basic CSS (eg. border-radius, box-shadow)
+- HTML Semantic Tags
