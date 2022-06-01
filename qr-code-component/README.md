@@ -1,4 +1,4 @@
-# 3-column Preview Card Component
+# QR Code Component
 
 Difficulty: 🟩 **Easy**
 
