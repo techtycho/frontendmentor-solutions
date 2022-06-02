@@ -1,4 +1,4 @@
-# 3-column Preview Card Component
+#	Profile Card Component
 
 Difficulty: 🟩 **Easy**
 
