@@ -1,4 +1,4 @@
-# NFT Preview Card Component
+# Order Summary Component
 
 Difficulty: 🟩 **Easy**
 
