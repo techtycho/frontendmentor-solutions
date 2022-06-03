@@ -14,6 +14,8 @@ This repository contains all FrontendMentor challenges I've made.
 | 04 | [3-column Preview Card Component](3-column-preview-card-component) | 🟩 **Easy** |
 | 05 | [QR Code Component](qr-code-component) | 🟩 **Easy** |
 | 06 | [Profile Card Component](profile-card-component) | 🟩 **Easy** |
+| 07 | [Stats Preview Card Component](stats-preview-card-component) | 🟩 **Easy** |
+
 
 ## Note
 - I don't submit my solutions, I only judge by the similarity to the original design.
