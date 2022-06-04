@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  --cyan: hsl(179, 62%, 43%);
+  --bright-yellow: hsl(71, 73%, 54%);
+  --light-gray: hsl(204, 43%, 93%);
+  --grayish-blue: hsl(218, 22%, 67%);
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  background-color: var(--light-gray);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  width: 650px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  box-shadow: 0 5px 15px 2px #0001;
+}
+
+.section {
+  padding: 40px;
+}
+
+.section:nth-of-type(1) {
+  background-color: #fff;
+  grid-column: 1 / 3;
+}
+
+.section:nth-of-type(1) .section__title {
+  color: var(--cyan);
+  margin-bottom: 20px;
+}
+
+.section:nth-of-type(1) .section__subtitle {
+  color: var(--bright-yellow);
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+.section:nth-of-type(1) .section__paragraph {
+  color: var(--grayish-blue);
+  line-height: 1.6rem;
+}
+
+.section:nth-of-type(2) {
+  background-color: var(--cyan);
+  color: #fff;
+}
+
+.section:nth-of-type(2) .section__title {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.section:nth-of-type(2) .section__pricing {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.section:nth-of-type(2) .section__pricing .price {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.section:nth-of-type(2) .section__pricing .label {
+  margin-left: 10px;
+  opacity: 0.7;
+}
+
+.section:nth-of-type(2) .section__paragraph {
+  margin-bottom: 30px;
+}
+
+.section:nth-of-type(2) {
+  width: 100%;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bright-yellow);
+  padding: 15px 40px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px 0 #0002;
+  font-weight: 700;
+}
+
+.section:nth-of-type(3) {
+  background-color: var(--cyan);
+  filter: brightness(1.08);
+  color: #fff;
+}
+
+.section:nth-of-type(3) .section__title {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.section:nth-of-type(3) .section__paragraph {
+  opacity: 0.7;
+  line-height: 1.2rem;
+  font-size: 0.9rem;
+  padding-right: 60px;
+}
