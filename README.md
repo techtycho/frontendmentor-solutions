@@ -15,6 +15,7 @@ This repository contains all FrontendMentor challenges I've made.
 | 05 | [QR Code Component](qr-code-component) | 🟩 **Easy** |
 | 06 | [Profile Card Component](profile-card-component) | 🟩 **Easy** |
 | 07 | [Stats Preview Card Component](stats-preview-card-component) | 🟩 **Easy** |
+| 08 | [Single Price Grid Component](single-price-grid-component) | 🟩 **Easy** |
 
 
 ## Note
