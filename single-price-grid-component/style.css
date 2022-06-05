@@ -122,3 +122,37 @@ body {
   font-size: 0.9rem;
   padding-right: 60px;
 }
+
+@media (max-width: 700px) {
+  body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .container {
+    display: block;
+    margin: 20px;
+    height: auto;
+  }
+
+  .card {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .section {
+    width: 100%;
+  }
+
+  .section:nth-of-type(1) {
+    grid-column: 1 / 2;
+  }
+}
+
+@media (max-width: 360px) {
+  body {
+    display: block;
+    height: auto;
+  }
+}
