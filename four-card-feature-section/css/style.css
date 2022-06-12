@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  background-color: hsl(0deg, 0%, 98%);
+  color: hsl(234deg, 12%, 34%);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.container .component {
+  width: 90%;
+  max-width: 1300px;
+  margin: auto;
+}
+
+.header {
+  padding: 0 350px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.header .title {
+  font-weight: 300;
+  font-size: 2.5rem;
+  line-height: 1.4;
+}
+.header .title span {
+  display: block;
+  font-weight: 600;
+}
+.header .content {
+  margin-top: 20px;
+  color: hsl(229deg, 6%, 66%);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.four-card-component {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.four-card-component .card-group .card {
+  margin-bottom: 30px;
+}
+.four-card-component .card-group .card:nth-of-type(1) {
+  border-color: hsl(0deg, 78%, 62%);
+}
+.four-card-component .card-group .card:nth-of-type(2) {
+  border-color: hsl(34deg, 97%, 64%);
+}
+.four-card-component .card:nth-of-type(3) {
+  border-color: hsl(212deg, 86%, 64%);
+}
+
+.card {
+  border-top: 5px solid hsl(180deg, 62%, 55%);
+  width: 350px;
+  height: 250px;
+  box-shadow: 0 6px 20px 0 hsla(234deg, 12%, 34%, 0.2);
+  padding: 40px;
+  border-radius: 8px;
+  background-color: #fff;
+  position: relative;
+  margin: 0 15px;
+}
+.card .card__title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.card .card__content {
+  color: hsl(234deg, 12%, 34%);
+  opacity: 0.5;
+  line-height: 1.6;
+}
+.card .card__img {
+  padding: 25px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    display: block;
+    height: 100%;
+  }
+  .container .component {
+    margin: 50px auto;
+  }
+  .header {
+    padding: 0;
+  }
+  .four-card-component {
+    flex-direction: column;
+  }
+  .four-card-component .card:nth-of-type(1) {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .header .title {
+    font-size: 1.8rem;
+  }
+  .header .content {
+    font-size: 0.9rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

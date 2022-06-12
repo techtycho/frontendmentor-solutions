@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+$font: "Poppins", sans-serif;
+
+$red: hsl(0, 78%, 62%);
+$cyan: hsl(180, 62%, 55%);
+$orange: hsl(34, 97%, 64%);
+$blue: hsl(212, 86%, 64%);
+$very-dark-blue: hsl(234, 12%, 34%);
+$grayish-blue: hsl(229, 6%, 66%);
+$very-light-gray: hsl(0, 0%, 98%);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $font;
+  font-size: 15px;
+  background-color: $very-light-gray;
+  color: $very-dark-blue;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+
+  .component {
+    width: 90%;
+    max-width: 1300px;
+    margin: auto;
+  }
+}
+
+.header {
+  padding: 0 350px;
+  text-align: center;
+  margin-bottom: 40px;
+
+  .title {
+    font-weight: 300;
+    font-size: 2.5rem;
+    line-height: 1.4;
+
+    span {
+      display: block;
+      font-weight: 600;
+    }
+  }
+
+  .content {
+    margin-top: 20px;
+    color: $grayish-blue;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
+
+.four-card-component {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .card-group {
+    .card {
+      margin-bottom: 30px;
+    }
+
+    .card:nth-of-type(1) {
+      border-color: $red;
+    }
+
+    .card:nth-of-type(2) {
+      border-color: $orange;
+    }
+  }
+
+  .card:nth-of-type(3) {
+    border-color: $blue;
+  }
+}
+
+.card {
+  border-top: 5px solid $cyan;
+  width: 350px;
+  height: 250px;
+  box-shadow: 0 6px 20px 0 hsla(234, 12%, 34%, 20%);
+  padding: 40px;
+  border-radius: 8px;
+  background-color: #fff;
+  position: relative;
+  margin: 0 15px;
+
+  .card__title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+
+  .card__content {
+    color: $very-dark-blue;
+    opacity: 0.5;
+    line-height: 1.6;
+  }
+
+  .card__img {
+    padding: 25px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    display: block;
+    height: 100%;
+
+    .component {
+      margin: 50px auto;
+    }
+  }
+
+  .header {
+    padding: 0;
+  }
+
+  .four-card-component {
+    flex-direction: column;
+
+    .card:nth-of-type(1) {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .header {
+    .title {
+      font-size: 1.8rem;
+    }
+
+    .content {
+      font-size: 0.9rem;
+    }
+  }
+}
