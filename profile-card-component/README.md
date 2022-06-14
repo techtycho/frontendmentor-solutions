@@ -13,7 +13,7 @@ My Solution:
 
 ## Required Knowledge
 - Flexbox
-- Background Positioning
+- CSS Background Positioning
 - Box Model
 - Basic CSS (eg. border-radius, box-shadow)
 - HTML Semantic Tags
