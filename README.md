@@ -8,7 +8,7 @@ This repository contains all FrontendMentor challenges I've made.
 
 | Number | Challenge | Difficulty | Tags |
 | ------ | --------- | ---------- | ---- |
-| 01 | [NFT Preview Card Component](nft-preview-card-component) | 🟩 **Easy** 1 | HTML & CSS |
+| 01 | [NFT Preview Card Component](nft-preview-card-component) | 🟩 **Easy** 1 | <kbd>HTML</kbd> `CSS` |
 | 02 | [Order Summary Component](order-summary-component) | 🟩 **Easy** 1 | HTML & CSS |
 | 03 | [3-column Preview Card Component](3-column-preview-card-component) | 🟩 **Easy** 1 | HTML & CSS |
 | 04 | [QR Code Component](qr-code-component) | 🟩 **Easy** 1 |HTML & CSS |
