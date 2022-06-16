@@ -12,7 +12,7 @@ This repository contains all FrontendMentor challenges I've made.
 | 02 | [Order Summary Component](order-summary-component) | 🟩 **Easy** 1 | <kbd>HTML</kbd> <kbd>CSS</kbd> |
 | 03 | [3-column Preview Card Component](3-column-preview-card-component) | 🟩 **Easy** 1 | <kbd>HTML</kbd> <kbd>CSS</kbd> |
 | 04 | [QR Code Component](qr-code-component) | 🟩 **Easy** 1 | <kbd>HTML</kbd> <kbd>CSS</kbd> |
-| 05 | [Profile Card Component](profile-card-component) | 🟩 **Easy** 1 | HTML & CSS |
+| 05 | [Profile Card Component](profile-card-component) | 🟩 **Easy** 1 | <kbd>HTML</kbd> <kbd>CSS</kbd> |
 | 06 | [Stats Preview Card Component](stats-preview-card-component) | 🟩 **Easy** 1 | HTML & CSS |
 | 07 | [Single Price Grid Component](single-price-grid-component) | 🟩 **Easy** 1 | HTML & CSS |
 | 08 | [Social Proof Section](social-proof-section) | 🟩 **Easy** 1 | HTML & CSS |
