@@ -15,9 +15,9 @@ This repository contains all FrontendMentor challenges I've made.
 | 05 | [Profile Card Component](profile-card-component) | 🟩 **Easy** 1 | <kbd>HTML</kbd> <kbd>CSS</kbd> |
 | 06 | [Stats Preview Card Component](stats-preview-card-component) | 🟩 **Easy** 1 | <kbd>HTML</kbd> <kbd>CSS</kbd> |
 | 07 | [Single Price Grid Component](single-price-grid-component) | 🟩 **Easy** 1 | <kbd>HTML</kbd> <kbd>CSS</kbd> |
-| 08 | [Social Proof Section](social-proof-section) | 🟩 **Easy** 1 | HTML & CSS |
-| 09 | [Four Card Feature Section](four-card-feature-section) | 🟩 **Easy** 1 | HTML & CSS |
-| 10 | [Huddle Landing Page with a single Introductory Section](huddle-landing-page-with-a-single-introductory-section) | 🟩 **Easy** 1 | HTML & CSS |
+| 08 | [Social Proof Section](social-proof-section) | 🟩 **Easy** 1 | <kbd>HTML</kbd> <kbd>CSS</kbd> |
+| 09 | [Four Card Feature Section](four-card-feature-section) | 🟩 **Easy** 1 | <kbd>HTML</kbd> <kbd>CSS</kbd> |
+| 10 | [Huddle Landing Page with a single Introductory Section](huddle-landing-page-with-a-single-introductory-section) | 🟩 **Easy** 1 | <kbd>HTML</kbd> <kbd>CSS</kbd> |
 | 11 | [Testimonials Grid](testimonials-grid) | 🟩 **Easy** 2 | HTML & CSS |
 | 12 | [Fylo Data Storage Component](fylo-data-storage-component) | 🟩 **Easy** 2 | HTML & CSS |
 
