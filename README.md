@@ -18,8 +18,8 @@ This repository contains all FrontendMentor challenges I've made.
 | 08 | [Social Proof Section](social-proof-section) | 🟩 **Easy** 1 | <kbd>HTML</kbd> <kbd>CSS</kbd> |
 | 09 | [Four Card Feature Section](four-card-feature-section) | 🟩 **Easy** 1 | <kbd>HTML</kbd> <kbd>CSS</kbd> |
 | 10 | [Huddle Landing Page with a single Introductory Section](huddle-landing-page-with-a-single-introductory-section) | 🟩 **Easy** 1 | <kbd>HTML</kbd> <kbd>CSS</kbd> |
-| 11 | [Testimonials Grid](testimonials-grid) | 🟩 **Easy** 2 | HTML & CSS |
-| 12 | [Fylo Data Storage Component](fylo-data-storage-component) | 🟩 **Easy** 2 | HTML & CSS |
+| 11 | [Testimonials Grid](testimonials-grid) | 🟩 **Easy** 2 | <kbd>HTML</kbd> <kbd>CSS</kbd> |
+| 12 | [Fylo Data Storage Component](fylo-data-storage-component) | 🟩 **Easy** 2 | <kbd>HTML</kbd> <kbd>CSS</kbd> |
 
 
 ## Note
