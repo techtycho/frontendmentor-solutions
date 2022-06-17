@@ -20,6 +20,7 @@ This repository contains all FrontendMentor challenges I've made.
 | 10 | [Huddle Landing Page with a single Introductory Section](huddle-landing-page-with-a-single-introductory-section) | 🟩 **Easy** 1 | <kbd>HTML</kbd> <kbd>CSS</kbd> |
 | 11 | [Testimonials Grid](testimonials-grid) | 🟩 **Easy** 2 | <kbd>HTML</kbd> <kbd>CSS</kbd> |
 | 12 | [Fylo Data Storage Component](fylo-data-storage-component) | 🟩 **Easy** 2 | <kbd>HTML</kbd> <kbd>CSS</kbd> |
+| 13 | [Interactive Rating Component](interactive-rating-component) | 🟩 **Easy** 1 | <kbd>HTML</kbd> <kbd>CSS</kbd> <kbd>JS</kbd> |
 
 
 ## Note
