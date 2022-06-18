@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Tip Calculator App</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <img src="images/logo.svg" alt="" class="logo" />
+      <div class="card">
+        <div class="controls">
+          <form class="form">
+            <div class="bill">
+              <label for="bill">Bill</label>
+              <div class="field">
+                <img src="images/icon-dollar.svg" alt="" />
+                <input
+                  type="text"
+                  name="bill"
+                  placeholder="0"
+                  autocomplete="off"
+                />
+              </div>
+            </div>
+            <div class="select-tip">
+              <label for="select-tip">Select Tip %</label>
+              <div class="buttons">
+                <button class="btn__tip">5%</button>
+                <button class="btn__tip">10%</button>
+                <button class="btn__tip">15%</button>
+                <button class="btn__tip">25%</button>
+                <button class="btn__tip">50%</button>
+                <input
+                  type="text"
+                  placeholder="Custom"
+                  autocomplete="off"
+                  id="custom-tip"
+                />
+              </div>
+            </div>
+            <div class="num-people">
+              <div class="label">
+                <label for="num-people">Number of People</label>
+                <p class="error">ERR</p>
+              </div>
+              <div class="field">
+                <img src="images/icon-person.svg" alt="" />
+                <input
+                  type="text"
+                  name="num-people"
+                  placeholder="1"
+                  autocomplete="off"
+                />
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="results">
+          <div class="stats">
+            <div class="stat">
+              <div class="info">
+                <h3 class="title">Tip Amount</h3>
+                <p class="sub">/ person</p>
+              </div>
+              <div class="value" id="tip">$0.00</div>
+            </div>
+            <div class="stat">
+              <div class="info">
+                <h3 class="title">Total</h3>
+                <p class="sub">/ person</p>
+              </div>
+              <div class="value" id="total">$0.00</div>
+            </div>
+          </div>
+          <button class="reset">Reset</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

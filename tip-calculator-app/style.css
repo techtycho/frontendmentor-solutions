@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  --strong-cyan: hsl(172, 67%, 45%);
+  --very-dark-cyan: hsl(183, 100%, 15%);
+  --dark-grayish-cyan: hsl(186, 14%, 43%);
+  --grayish-cyan: hsl(184, 14%, 56%);
+  --light-grayish-cyan: hsl(185, 41%, 84%);
+  --very-light-grayish-cyan: hsl(189, 41%, 97%);
+  --error: hsl(0, 70%, 70%);
+}
+
+body {
+  font-family: "Space Mono", monospace;
+  background-color: var(--light-grayish-cyan);
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 800px;
+  margin: auto;
+  height: 100%;
+}
+
+.logo {
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 20px;
+  display: flex;
+}
+
+.controls {
+  width: 400px;
+  padding: 0 20px;
+  padding-right: 40px;
+}
+
+.bill,
+.select-tip,
+.num-people {
+  margin-bottom: 30px;
+}
+
+label[for="bill"] {
+  margin-top: 15px;
+}
+
+label {
+  display: block;
+  color: var(--dark-grayish-cyan);
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+::placeholder {
+  color: var(--grayish-cyan);
+}
+
+.field > input {
+  border: none;
+  outline: none;
+  background-color: var(--very-light-grayish-cyan);
+  text-align: end;
+  font-family: "Space Mono", monospace;
+  color: var(--grayish-cyan);
+  font-size: 24px;
+}
+
+.field {
+  background-color: var(--very-light-grayish-cyan);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: var(--grayish-cyan);
+  border: 2px solid var(--very-light-grayish-cyan);
+  transition: border-color 0.1s;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  gap: 10px;
+}
+
+.buttons > input {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: var(--very-light-grayish-cyan);
+  text-align: end;
+  font-family: "Space Mono", monospace;
+  color: var(--grayish-cyan);
+  font-size: 24px;
+  padding-right: 8px;
+  border: 2px solid var(--very-light-grayish-cyan);
+  transition: border-color 0.1s;
+}
+
+.btn__tip {
+  background-color: var(--very-dark-cyan);
+  color: #fff;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-family: "Space Mono", monospace;
+  font-size: 20px;
+  transition: background-color 0.1s;
+}
+
+.btn__tip:hover {
+  background-color: var(--strong-cyan);
+  cursor: pointer;
+}
+
+.results {
+  background-color: var(--very-dark-cyan);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px;
+  color: #fff;
+  width: 100%;
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 1rem;
+}
+
+.sub {
+  font-size: 13px;
+  color: var(--grayish-cyan);
+}
+
+.value {
+  color: var(--strong-cyan);
+  font-size: 2.5rem;
+}
+
+.reset {
+  border: none;
+  outline: none;
+  padding: 7px;
+  background-color: hsl(183, 100%, 25%);
+  color: #fff;
+  font-size: 1.2rem;
+  font-family: "Space Mono", monospace;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  transition: background-color 0.2s;
+}
+
+.reset:hover {
+  background-color: var(--strong-cyan);
+  cursor: pointer;
+}
+
+.label {
+  display: flex;
+  justify-content: space-between;
+}
+
+.error {
+  display: none;
+  color: var(--error);
+}
