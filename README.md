@@ -21,6 +21,7 @@ This repository contains all FrontendMentor challenges I've made.
 | 11 | [Testimonials Grid](testimonials-grid) | 🟩 **Easy** 2 | <kbd>HTML</kbd> <kbd>CSS</kbd> |
 | 12 | [Fylo Data Storage Component](fylo-data-storage-component) | 🟩 **Easy** 2 | <kbd>HTML</kbd> <kbd>CSS</kbd> |
 | 13 | [Interactive Rating Component](interactive-rating-component) | 🟩 **Easy** 1 | <kbd>HTML</kbd> <kbd>CSS</kbd> <kbd>JS</kbd> |
+| 14 | [Tip Calculator App](tip-calculator-app) | 🟩 **Easy** 2 | <kbd>HTML</kbd> <kbd>CSS</kbd> <kbd>JS</kbd> |
 
 
 ## Note
