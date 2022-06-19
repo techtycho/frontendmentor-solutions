@@ -104,11 +104,10 @@ label {
   outline: none;
   border-radius: 5px;
   background-color: var(--very-light-grayish-cyan);
-  text-align: end;
+  text-align: center;
   font-family: "Space Mono", monospace;
   color: var(--grayish-cyan);
   font-size: 24px;
-  padding-right: 8px;
   border: 2px solid var(--very-light-grayish-cyan);
   transition: border-color 0.1s;
 }
@@ -189,4 +188,47 @@ label {
 .error {
   display: none;
   color: var(--error);
+}
+
+@media (max-width: 850px) {
+  body {
+    height: auto;
+  }
+
+  .logo {
+    margin-top: 50px;
+  }
+
+  .controls {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .buttons {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .field {
+    width: 100%;
+  }
+
+  .error {
+    display: none !important;
+  }
+
+  .field > input {
+    width: 100%;
+    margin-right: 10px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .card {
+    display: block;
+    width: 100%;
+    border-end-start-radius: 0;
+    border-end-end-radius: 0;
+  }
 }
