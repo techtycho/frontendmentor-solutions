@@ -1,12 +1,12 @@
-# Tip Calculator App
+# FAQ Accordion Card
 
 Difficulty: 🟩 **Easy**
 
 Tags: **HTML**, **CSS**, **JS**
 
-Level: 2, **Junior**
+Level: 1, **Newbie**
 
-Link: https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX
+Link: https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam
 
 My Solution:
 ![My Solution](preview.png)
@@ -14,10 +14,9 @@ My Solution:
 ## Required Knowledge
 - Basic JavaScript
 - Basic DOM Manipulation
-- Aynchronous Callbacks (eg. setTimeout, setInterval)
 - Array Functions (eg. map, forEach)
-- Function Methods (eg. call, bind, apply)
 - Events
+- CSS Background Positioning
 - Flexbox
 - Responsive Web Design (eg. media queries, meta viewport tag..)
 - Pseudo Classes (eg. hover states)
