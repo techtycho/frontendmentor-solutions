@@ -12,13 +12,12 @@ My Solution:
 ![My Solution](preview.png)
 
 ## Required Knowledge
+- Fetch JSON data (ie. fetch() method)
 - Basic JavaScript
 - Basic DOM Manipulation
-- Aynchronous Callbacks (eg. setTimeout, setInterval)
 - Array Functions (eg. map, forEach)
-- Function Methods (eg. call, bind, apply)
-- Events
 - Flexbox
+- CSS Positioning
 - Responsive Web Design (eg. media queries, meta viewport tag..)
 - Pseudo Classes (eg. hover states)
 - CSS Transitions & Animations
