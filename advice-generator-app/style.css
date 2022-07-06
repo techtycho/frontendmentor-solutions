@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+
+:root {
+  --light-cyan: hsl(193, 38%, 86%);
+  --neon-green: hsl(150, 100%, 66%);
+  --grayish-blue: hsl(217, 19%, 38%);
+  --dark-grayish-blue: hsl(217, 19%, 24%);
+  --dark-blue: hsl(218, 23%, 16%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  color: var(--light-cyan);
+  background-color: var(--dark-blue);
+  height: 100vh;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  width: 550px;
+  margin: auto;
+  background-color: var(--dark-grayish-blue);
+  padding: 50px;
+  border-radius: 15px;
+  box-shadow: 0 7px 10px -5px #0003;
+  position: relative;
+}
+
+.id {
+  color: var(--neon-green);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.advice {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.separator {
+  width: 100%;
+  margin-bottom: 20px;
+  user-select: none;
+}
+
+.refresh {
+  position: absolute;
+  bottom: -35px;
+  left: calc(50% - 35px);
+  padding: 35px;
+  border-radius: 50%;
+  background-color: var(--neon-green);
+  background-image: url("images/icon-dice.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  outline: none;
+  transition: box-shadow 0.2s, background-color 0.1s;
+}
+
+.refresh:focus {
+  box-shadow: 0 0 30px 0 hsl(150, 100%, 36%);
+}
+
+.refresh:active {
+  background-color: hsl(150, 100%, 46%);
+}
+
+.refresh:hover {
+  cursor: pointer;
+  box-shadow: 0 0 30px 0 hsl(150, 100%, 66%, 60%);
+}

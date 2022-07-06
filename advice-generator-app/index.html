@@ -10,11 +10,23 @@
       href="./images/favicon-32x32.png"
     />
     <title>Advice generator app</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <script defer src="index.js"></script>
   </head>
   <body>
-    <p>Advice #<span id="id">0</span></p>
-    <p>"<span id="text"></span>"</p>
-    <button id="refresh">Refresh</button>
+    <div class="container">
+      <div class="card">
+        <div class="id">Advice #<span id="id">0</span></div>
+        <div class="advice">
+          &OpenCurlyDoubleQuote;<span id="text"></span>&CloseCurlyDoubleQuote;
+        </div>
+        <img
+          class="separator"
+          src="images/pattern-divider-desktop.svg"
+          alt=""
+        />
+        <button class="refresh" id="refresh"></button>
+      </div>
+    </div>
   </body>
 </html>
