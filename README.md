@@ -24,6 +24,7 @@ This repository contains all FrontendMentor challenges I've made.
 | 14 | [FAQ Accordion Card](faq-accordion-card) | 🟩 **Easy** 1 | <kbd>HTML</kbd> <kbd>CSS</kbd> <kbd>JS</kbd> |
 | 15 | [Tip Calculator App](tip-calculator-app) | 🟩 **Easy** 2 | <kbd>HTML</kbd> <kbd>CSS</kbd> <kbd>JS</kbd> |
 | 16 | [Expenses Chart Component](expenses-chart-component) | 🟩 **Easy** 2 | <kbd>HTML</kbd> <kbd>CSS</kbd> <kbd>JS</kbd> |
+| 17 | [Advice Generator App](advice-generator-app) | 🟩 **Easy** 2 | <kbd>HTML</kbd> <kbd>CSS</kbd> <kbd>JS</kbd> <kbd>API</kbd> |
 
 
 ## Note
