@@ -12,6 +12,9 @@ My Solution:
 ![My Solution](preview.png)
 
 ## Required Knowledge
+- Fetch API or AJAX (eg. fetch(), XHR)
+- Basic HTTP (eg. HTTP methods, REST API)
+- Async JavaScript (eg. async/await, promises..)
 - Basic JavaScript
 - Basic DOM Manipulation
 - Events
